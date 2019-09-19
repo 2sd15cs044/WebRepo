@@ -1,0 +1,45 @@
+{
+"q1":
+      {"question":"Which is the capital of India?",
+        "choice1":"Delhi",
+        "choice2":"Mumbai",
+        "choice3":"Bangalore",
+        "choice4":"Pune",
+        "ans":"Delhi"
+       },
+       
+"q2":
+      {"question":"Which is the national animal of India?",
+        "choice1":"Tiger",
+        "choice2":"Lion",
+        "choice3":"Elephant",
+        "choice4":"Bear",
+        "ans":"Tiger"
+   },
+   
+ "q3":
+       {"question":"Which is the IT capital of India?",
+         "choice1":"Delhi",
+         "choice2":"Mumbai",
+         "choice3":"Bangalore",
+         "choice4":"Pune",
+             "ans":"Bangalore"
+   },
+   
+   
+  "q4":{"question":"Which is the national bird of India?",
+         "choice1":"peacock",
+         "choice2":"crow",
+         "choice3":"sparrow",
+         "choice4":"hen",
+             "ans":"Peacock"
+   },
+   
+  "q5":{"question":"Which is the national sport of India?",
+         "choice1":"cricket",
+         "choice2":"hockey",
+         "choice3":"tennis",
+         "choice4":"football",
+             "ans":"hockey"
+   }
+}

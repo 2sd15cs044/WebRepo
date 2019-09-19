@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<script type="text/javascript" src="js/q.js"></script>
+<!--  
+<script>
+function setCookie(cname,cvalue,exdays) {
+	  var d = new Date();
+	  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+	  var expires = "expires=" + d.toGMTString();
+	  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	  
+	}
+	
+function getCookie(cname) {
+	  var name = cname + "=";
+	  var decodedCookie = decodeURIComponent(document.cookie);
+	  var ca = decodedCookie.split(';');
+	  for(var i = 0; i < ca.length; i++) {
+	    var c = ca[i];
+	    while (c.charAt(0) == ' ') {
+	      c = c.substring(1);
+	    }
+	    if (c.indexOf(name) == 0) {
+	      return c.substring(name.length, c.length);
+	    }
+	  }
+	  return "";
+	}
+function checkCookie() {
+	  var user=getCookie("username");
+	  if (user != "") {
+	    alert("Your answer is " + user);
+	  } else {
+	     user = prompt("Please enter your name:","");
+	     if (user != "" && user != null) {
+	       setCookie("username", user, 30);
+	     }
+	  }
+	}
+
+function myFunction() {
+	var user=document.getElementsByName('option')[0].value;
+	var selected;
+	checkCookie();
+	var opt=document.getElementsByName('option');
+	for(i=0;i<opt.length;i++)
+		{
+			if(opt[i].checked)
+				{
+				selected=opt[i].value;
+				setCookie("username", selected, 30);
+				}
+			
+		}  
+	}
+	
+</script>
+ -->
+<body onload="fetch('q5')">
+
+<h2>ANSWER IT....!!!!!!</h2>
+<form>
+<p id="demo"></p>
+  <input type="radio" name="option" value="cricket" ><label id="opt1"></label><br><br>
+  <input type="radio" name="option" value="hockey"><label id="opt2"></label><br><br>
+  <input type="radio" name="option" value="tennis"><label id="opt3"></label><br><br>
+   <input type="radio" name="option" value="football"><label id="opt4"></label><br><br>
+   <input type="button" onclick="totalScore()" value="Submit">
+   
+   <a href="index4.html" class="previous">&laquo; Previous</a>
+ 
+</form>
+
+
+</body>
+</html>

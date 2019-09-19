@@ -1,0 +1,34 @@
+{
+
+   "q1" : {
+         "que"     : "Which is the national animal of India?",
+         "choices" : ["Tiger","Lion","Elephant","Fox"],
+         "ans"     : "Tiger"
+          },
+  
+    "q2" : {
+         "que"     : "Which is the capital of India?",
+         "choices" : ["Delhi","Mumbai","Bangalore","Chennai"],
+         "ans"     : "Delhi"
+           },
+
+      "q3" : {
+         "que"     : "Which is the national bird of India?",
+         "choices" : ["Peacock","Crow","Pigeon","Parrot"],
+         "ans"     : "Peacock"
+           },
+           
+       
+      "q4" : {
+         "que"     : "Which is the IT capital of India?",
+         "choices" : ["Delhi","Mumbai","Bangalore","Chennai"],
+         "ans"     : "Bangalore"
+           },
+           
+      "q5" : {
+         "que"     : "Which is the national sport of India?",
+         "choices" : ["Cricket","Hockey","TT","Football"],
+         "ans"     : "Hockey"
+           }    
+
+}
